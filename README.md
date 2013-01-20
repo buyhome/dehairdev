@@ -6,7 +6,7 @@ http://rhomobi.com/topics/105
 
 PhoneGap & Android 开发环境必备条件
 =========
-
+```bash
 •Download and install Eclipse Classic* 
 •Download and install Android SDK* 
 •Download and install ADT Plugin* 
@@ -14,7 +14,7 @@ PhoneGap & Android 开发环境必备条件
 •Download and install Apache ANT 1.8.x*
 
 export PATH=${PATH}:/Development/android-sdk-macosx/platform-tools:/Development/android-sdk-macosx/tools 
-
+```
 
 •Finally, you may need to include %ANT_HOME%\bin to your PATH as well. To check to see if this is required, run a command prompt and type ant. If the program can not be found add %ANT_HOME%\bin to the PATH. You may need to specify the full path instead of using the %ANT_HOME% environment variable.
 
