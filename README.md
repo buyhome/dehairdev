@@ -20,7 +20,6 @@ export PATH=${PATH}:/Development/android-sdk-macosx/platform-tools:/Development/
 
 Setup New Project :
 >•In a terminal window, navigate to the bin directory within the android subfolder of the Cordova distribution.
->•Type in 
 
 ```bash
 ./create <project_folder_path> <package_name> <project_name> 
@@ -28,6 +27,8 @@ Setup New Project :
 
 then press "Enter"
 
+```bash
 <project_folder_path> is the path to your new Cordova Android project
 <package_name> is the package name, e.g. com.YourCompany.YourAppName
 <project_name> is the project name, e.g. YourApp (Must not contain spaces)
+```
