@@ -19,15 +19,15 @@ export PATH=${PATH}:/Development/android-sdk-macosx/platform-tools:/Development/
 •Finally, you may need to include %ANT_HOME%\bin to your PATH as well. To check to see if this is required, run a command prompt and type ant. If the program can not be found add %ANT_HOME%\bin to the PATH. You may need to specify the full path instead of using the %ANT_HOME% environment variable.
 
 Setup New Project :
-•In a terminal window, navigate to the bin directory within the android subfolder of the Cordova distribution.
-•
-Type in 
+>•In a terminal window, navigate to the bin directory within the android subfolder of the Cordova distribution.
+>•Type in 
 
+```bash
 ./create <project_folder_path> <package_name> <project_name> 
-
+```
 
 then press "Enter"
 
-is the path to your new Cordova Android project
- is the package name, e.g. com.YourCompany.YourAppName
- is the project name, e.g. YourApp (Must not contain spaces)
+<project_folder_path> is the path to your new Cordova Android project
+<package_name> is the package name, e.g. com.YourCompany.YourAppName
+<project_name> is the project name, e.g. YourApp (Must not contain spaces)
